@@ -1,0 +1,36 @@
+{
+  "name": "contractshark-utils",
+  "version": "1.0.0",
+  "files": [ "contracts/", "build/", "lib/"],
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "compile": "yarn truffle compile",
+    "coverage": "yarn compile && yarn truffle run coverage",
+    "test": "yarn compile && yarn truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contractshark/contractshark-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@truffle/debug-utils": "^5.0.8",
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "ethlint": "^1.2.5",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.3",
+    "solhint": "^3.3.2",
+    "solhint-plugin-prettier": "0.0.5",
+    "solidity-coverage": "^0.7.13",
+    "truffle": "^5.1.61"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^0.1.18"
+  }
+}
