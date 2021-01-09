@@ -1,13 +1,5 @@
-pragma solidity ^0.5.0;
+pragma solidity >=0.5.0 <0.6.0
 
-/**
- * Integers Library
- *
- * In summary this is a simple library of integer functions which allow a simple
- * conversion to and from strings
- *
- * @author James Lockhart <james@n3tw0rk.co.uk>
- */
 library Integers {
     /**
      * Parse Int

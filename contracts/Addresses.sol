@@ -1,13 +1,5 @@
-pragma solidity ^0.5.0;
+pragma solidity >=0.5.0 <0.6.0;
 
-/**
- * Addresses Library
- *
- * In summary this is a simple library of address functions which extends the
- * pre-existing functionality
- *
- * @author James Lockhart <james@n3tw0rk.co.uk>
- */
 library Addresses {
     /**
      * Is Contract

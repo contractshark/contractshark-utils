@@ -1,16 +1,5 @@
-pragma solidity ^0.5.0;
+pragma solidity >=0.5.0 <0.6.0;
 
-/**
- * Strings Library
- *
- * In summary this is a simple library of string functions which make simple
- * string operations less tedious in solidity.
- *
- * Please be aware these functions can be quite gas heavy so use them only when
- * necessary not to clog the blockchain with expensive transactions.
- *
- * @author James Lockhart <james@n3tw0rk.co.uk>
- */
 library Strings {
     /**
      * Concat (High gas cost)
